@@ -9,5 +9,5 @@ app.get("/",function(req,res){
 });
 
 app.listen(8002,function(){
-	console.log("Dog server running at 8002");
+	console.log("Sheep server running at 8002");
 });

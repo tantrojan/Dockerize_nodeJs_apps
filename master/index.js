@@ -11,7 +11,6 @@ app.get("/callcat",function(req,res){
 	  port:'8001'
 	};
 
-	var str = '';
 	callback = function(response) {
 
 	  //another chunk of data has been recieved, so append it to `str`
